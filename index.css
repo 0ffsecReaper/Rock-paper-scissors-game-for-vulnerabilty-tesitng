@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(33, 10, 10);
+    font-size: 24px;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: magenta;
+    font-weight: 400;
+
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+
+}
+
+#player-name{
+    font: size 1.5re; 
+    text-align: center;
+    color: aquamarine;
+}
+#score-board, #choice-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.score-counter{
+    margin: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: magenta;
+
+}
+#game-log{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    color: magenta;
+}
+.score-holder{
+    background: black;
+    color: aquamarine;
+}
+.choice-button{
+    margin: 10px
+}
